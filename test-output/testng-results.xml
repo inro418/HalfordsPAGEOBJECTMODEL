@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="312513" started-at="2021-01-16T03:38:46Z" finished-at="2021-01-16T03:43:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="312513" started-at="2021-01-16T03:38:46Z" finished-at="2021-01-16T03:43:59Z">
+      <class name="com.qa.halfords.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="27293" started-at="2021-01-16T03:39:41Z" finished-at="2021-01-16T03:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="verifyHomePageTitle" duration-ms="120" started-at="2021-01-16T03:40:08Z" finished-at="2021-01-16T03:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="3690" started-at="2021-01-16T03:40:08Z" finished-at="2021-01-16T03:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="44889" started-at="2021-01-16T03:41:31Z" finished-at="2021-01-16T03:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHiPeter()[pri:2, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="verifyHiPeter" duration-ms="2048" started-at="2021-01-16T03:42:16Z" finished-at="2021-01-16T03:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHiPeter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="8544" started-at="2021-01-16T03:42:18Z" finished-at="2021-01-16T03:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="39446" started-at="2021-01-16T03:43:04Z" finished-at="2021-01-16T03:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyHalfordslogoImage()[pri:3, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="verifyHalfordslogoImage" duration-ms="4535" started-at="2021-01-16T03:43:43Z" finished-at="2021-01-16T03:43:48Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-QBA990P', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9199746c3b30ce3bd1995ca0ee704527]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-QBA990P', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9199746c3b30ce3bd1995ca0ee704527
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:320)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.qa.halfords.pages.HomePage.verifyHalfordslogoImage(HomePage.java:35)
+	at com.qa.halfords.test.HomePageTest.verifyHalfordslogoImage(HomePageTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHalfordslogoImage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="10786" started-at="2021-01-16T03:43:48Z" finished-at="2021-01-16T03:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.halfords.test.HomePageTest -->
+      <class name="com.qa.halfords.test.BabyChildPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="19051" started-at="2021-01-16T03:39:05Z" finished-at="2021-01-16T03:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="BabyChildTest()[pri:1, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="BabyChildTest" duration-ms="15146" started-at="2021-01-16T03:39:24Z" finished-at="2021-01-16T03:39:39Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-QBA990P', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 65bf5818c0bcfd6d832bcebd8307aeed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-QBA990P', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 65bf5818c0bcfd6d832bcebd8307aeed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.qa.halfords.pages.BabyChildPage.clickOnBabyChildPage(BabyChildPage.java:50)
+	at com.qa.halfords.test.BabyChildPageTest.BabyChildTest(BabyChildPageTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BabyChildTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1587" started-at="2021-01-16T03:39:39Z" finished-at="2021-01-16T03:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="29534" started-at="2021-01-16T03:40:45Z" finished-at="2021-01-16T03:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTest()[pri:2, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="loginPageTest" duration-ms="9793" started-at="2021-01-16T03:41:14Z" finished-at="2021-01-16T03:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.BabyChildPageTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="7125" started-at="2021-01-16T03:41:24Z" finished-at="2021-01-16T03:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.halfords.test.BabyChildPageTest -->
+      <class name="com.qa.halfords.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="17270" started-at="2021-01-16T03:38:46Z" finished-at="2021-01-16T03:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="LoginPageTitleTest" duration-ms="221" started-at="2021-01-16T03:39:04Z" finished-at="2021-01-16T03:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="1201" started-at="2021-01-16T03:39:04Z" finished-at="2021-01-16T03:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="25392" started-at="2021-01-16T03:40:12Z" finished-at="2021-01-16T03:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HalfordslogoImageTest()[pri:2, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="HalfordslogoImageTest" duration-ms="620" started-at="2021-01-16T03:40:37Z" finished-at="2021-01-16T03:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HalfordslogoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="6600" started-at="2021-01-16T03:40:38Z" finished-at="2021-01-16T03:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="22996" started-at="2021-01-16T03:42:27Z" finished-at="2021-01-16T03:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInPageTest()[pri:3, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="signInPageTest" duration-ms="7768" started-at="2021-01-16T03:42:50Z" finished-at="2021-01-16T03:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.halfords.test.LoginPageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="6606" started-at="2021-01-16T03:42:57Z" finished-at="2021-01-16T03:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.halfords.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
